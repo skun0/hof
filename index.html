@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HALL OF AUTISM</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .rainbow-text {
+      font-size: 40px;
+      font-weight: bold;
+      animation: rainbow 5s linear infinite;
+    }
+
+    @keyframes rainbow {
+      0% { color: rgb(255, 0, 0); }
+      16% { color: rgb(255, 255, 0); }
+      33% { color: rgb(0, 255, 0); }
+      50% { color: rgb(0, 255, 255); }
+      66% { color: rgb(0, 0, 255); }
+      83% { color: rgb(255, 0, 255); }
+      100% { color: rgb(255, 0, 0); }
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background-color: #111;
+      border: 1px solid #333;
+      border-radius: 10px;
+      width: 300px;
+      overflow: hidden;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .name {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 10px;
+      animation: rainbow 5s linear infinite;
+    }
+
+    .subtitle {
+      font-weight: bold;
+      margin: 8px 0 4px;
+    }
+
+    .description {
+      font-size: 14px;
+      text-align: left;
+      max-height: 120px;
+      overflow-y: auto;
+      padding: 0 10px;
+    }
+
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background-color: #555;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="rainbow-text">HALL OF AUTISM</div>
+
+  <div class="container">
+
+    <div class="card">
+      <img src="img/fortu.jpg" alt="Fortunato Urriano">
+      <div class="name">Fortunato Urriano</div>
+      <div class="description">
+        13 years old fat kid who pretended to beat up me if I wouldn't pay for his friends' burger.
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/lorenzo.jpg" alt="Lorenzo Caiazzo">
+      <div class="name">Lorenzo Caiazzo</div>
+      <div class="description">
+        12 year old 1 kg kid who pretended to beat me up if I wouldn't pay for his friends' burger.
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/enrico.jpg" alt="Enrico Antonelli">
+      <div class="name">Enrico Antonelli</div>
+      <div class="description">
+        12 Years old stupid nigga who wants to beat me up and mock me for no reason at all. 
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
